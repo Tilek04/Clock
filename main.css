@@ -1,0 +1,42 @@
+body {
+  font-family: "Inconsolata", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #2c2f3d;
+}
+
+.container {
+  border: 10px solid rgb(0, 240, 240);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 32px;
+  border-radius: 50%;
+  background: rgb(36, 37, 51);
+  box-shadow: 0 0 12px rgba(0, 240, 240, 0.3), 0 0 12px rgba(0, 0, 0, 0.4) inset;
+}
+
+.blinlk-colon {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.4;
+  }
+}
+
+.date-container {
+  margin-top: 6px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
